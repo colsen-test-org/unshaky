@@ -2,23 +2,27 @@ PODS:
   - Nimble (8.0.1)
   - Quick (2.1.0)
   - Sparkle (1.21.3)
+  - Zip (0.7.0)
 
 DEPENDENCIES:
   - Nimble
   - Quick
-  - Sparkle
+  - Sparkle (= 1.21.3)
+  - Zip (= 0.7.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Nimble
     - Quick
     - Sparkle
+    - Zip
 
 SPEC CHECKSUMS:
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
   Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
+  Zip: e34513299ac38c0686d5b24504da7ce343799ab9
 
-PODFILE CHECKSUM: dc28f491260ac536f53535d24f79b53d40aaad9b
+PODFILE CHECKSUM: d586e9ed3f63ff451efe07e3b946952de82ff9fa
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.16.2

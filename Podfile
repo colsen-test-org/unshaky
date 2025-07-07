@@ -6,7 +6,8 @@ target 'Unshaky' do
   use_frameworks!
 
   # Pods for Unshaky
-  pod 'Sparkle'
+  pod 'Sparkle', '1.21.3'
+  pod 'Zip', '0.7.0'
 
 end
 
